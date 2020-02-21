@@ -4,14 +4,26 @@
 	"description": "seed repo for nextjs with auth",
 	"main": "index.js",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"dev": "next",
+		"build": "next build",
+		"start": "next start"
 	},
-	"keywords": [ "nextJs", "auth", "techmex" ],
+	"keywords": [
+		"nextJs",
+		"auth",
+		"techmex"
+	],
 	"author": "george ramirez",
 	"license": "ISC",
 	"dependencies": {
+		"@chakra-ui/core": "^0.5.2",
+		"@emotion/core": "^10.0.27",
+		"@emotion/styled": "^10.0.27",
+		"firebase-admin": "^8.9.2",
 		"next": "^9.2.2",
+		"query-string": "^6.11.0",
 		"react": "^16.12.0",
-		"react-dom": "^16.12.0"
+		"react-dom": "^16.12.0",
+		"react-hook-form": "^4.9.7"
 	}
 }
